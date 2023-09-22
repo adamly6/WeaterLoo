@@ -18,7 +18,7 @@ Follow these instructions to get the project up and running on your local machin
    git clone https://github.com/adamly6/WeatherLoo.git
    ```
 
-2. Change your Ppenweathermap apiKey
+2. Change your Openweathermap apiKey
 
    ```
 	 cd projectDirectory/src/services/weatherService.ts
