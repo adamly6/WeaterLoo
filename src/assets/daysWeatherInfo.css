@@ -1,0 +1,43 @@
+.days-weather {
+  position: relative;
+  top: 10%;
+  background-color: #898ff8;
+  width: 90%;
+  height: 60%;
+  left: 5%;
+  right: 5%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  min-width: 300px;
+}
+
+.day-row {
+  width: 90%;
+  margin: 0 auto;
+
+  font-size: 25px;
+}
+
+.col-2 {
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .day-row {
+    font-size: 15px;
+  }
+}
+
+.day-col {
+  color: #f7a400;
+}
+
+.night-col {
+  color: #4d4a4a;
+}

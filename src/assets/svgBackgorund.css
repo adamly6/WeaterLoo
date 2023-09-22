@@ -1,0 +1,65 @@
+.svg-background {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.svg-item {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 150px;
+  min-height: 150px;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#svg1 {
+  inset-block-start: 5%;
+  animation-name: moveLeftToRight1;
+  animation-duration: 15s;
+}
+
+#svg2 {
+  inset-block-start: 40%;
+  animation-name: moveRightToLeft;
+  animation-duration: 20s;
+}
+
+#svg3 {
+  inset-block-start: 70%;
+  animation-name: moveLeftToRight2;
+  animation-duration: 25s;
+}
+
+@keyframes moveLeftToRight1 {
+  0% {
+    inset-inline-start: -200px;
+  }
+  100% {
+    inset-inline-start: calc(100% + 200px);
+  }
+}
+
+@keyframes moveLeftToRight2 {
+  0% {
+    inset-inline-start: -200px;
+  }
+  100% {
+    inset-inline-start: calc(100% + 400px);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    inset-inline-start: calc(100% + 200px);
+  }
+  100% {
+    inset-inline-start: -200px;
+  }
+}

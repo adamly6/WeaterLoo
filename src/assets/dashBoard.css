@@ -1,0 +1,80 @@
+#app {
+  height: 100vh;
+  width: 100%;
+}
+
+.dashboard {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard-container {
+  /* position: absolute;
+  top: 1%;
+  left: 1%;
+  right: 1%;
+  bottom: 1%; */
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  border-radius: 43px;
+
+  /* overflow: hidden; */
+}
+
+.logout {
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  top: 1%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #f7a400;
+  z-index: 1;
+  font-size: 35px;
+  padding: 0%;
+}
+
+.dashboard-left {
+  background-color: #7074c2;
+  height: 100vh;
+  padding: 0;
+}
+
+.dashboard-right {
+  background-color: #292a73;
+  height: 100vh;
+  padding: 0;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 1%;
+  color: #f7a400;
+  font-size: 35px;
+}
+
+.custom-input {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+  margin-left: 5%;
+}
+
+.search-icon {
+  margin-right: 10px;
+  color: black;
+}
+
+.custom-select {
+  background-color: white !important;
+  border-radius: 25px !important;
+  width: 400px !important;
+  min-width: 310px !important;
+  height: 40px !important;
+}
